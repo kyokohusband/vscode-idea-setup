@@ -1,0 +1,11 @@
+anandabibekray.intellij-idea-new-ui-theme
+chadalen.vscode-jetbrains-icon-theme
+k--kato.intellij-idea-keybindings
+redhat.java
+vscjava.vscode-java-pack
+vscjava.vscode-maven
+vscjava.vscode-spring-initializr
+madhavd1.javadoc-tools
+monishkumarv.jetbrains-commit-manager
+alexti.intellij-idea-light-theme
+qvist.jetbrains-new-ui-dark-theme
