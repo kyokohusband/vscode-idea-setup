@@ -1,5 +1,7 @@
 # VSCode → IntelliJ IDEA 风格配置
 
+> 语言：[中文](README.md) · [English](README.en.md)
+
 一套把 VSCode 调成接近 IntelliJ IDEA 手感的配置：主题、图标、键位、语法配色、编辑器行为与项目视图全部对齐。
 
 配置来源为本机 VSCode，2026-10-29 ~ 10-31 分 6 批调整完成，共 101 个顶层设置项。
