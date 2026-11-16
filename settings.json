@@ -1,0 +1,281 @@
+{
+  "workbench.colorTheme": "IntelliJ IDEA New UI",
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-light",
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#F7F8FA",
+    "titleBar.inactiveBackground": "#F3F6F9",
+    "titleBar.activeForeground": "#000000",
+    "titleBar.inactiveForeground": "#767A8A",
+    "titleBar.border": "#E1E2E5",
+    "[IntelliJ IDEA New UI]": {
+      "editor.background": "#FFFFFF",
+      "editor.foreground": "#000000",
+      "editor.lineHighlightBackground": "#F7F8FA",
+      "editor.lineHighlightBorder": "#FFFFFF00",
+      "editorLineNumber.foreground": "#A8ADBD",
+      "editorLineNumber.activeForeground": "#5F6473",
+      "editorGutter.background": "#FFFFFF",
+      "editor.selectionBackground": "#A6D2FF",
+      "editor.inactiveSelectionBackground": "#D4E2FF",
+      "editorIndentGuide.background1": "#EBECF0",
+      "editorIndentGuide.activeBackground1": "#A8ADBD",
+      "editorCursor.foreground": "#000000",
+      "editorWhitespace.foreground": "#D3D5DB",
+      "editorBracketMatch.background": "#D5E6F6",
+      "editorBracketMatch.border": "#FFFFFF00"
+    }
+  },
+  "editor.semanticTokenColors": {
+    "keyword": "#0033B3",
+    "modifier": "#0033B3",
+    "string": "#067D17",
+    "number": "#1750EB",
+    "regexp": "#0A6FC1",
+    "comment": "#8C8C8C",
+    "class": "#000000",
+    "interface": "#000000",
+    "enum": "#000000",
+    "enumMember": "#0033B3",
+    "type": "#000000",
+    "struct": "#000000",
+    "typeParameter": "#000000",
+    "record": "#000000",
+    "recordComponent": "#000000",
+    "function": "#00627A",
+    "method": "#00627A",
+    "property": "#871094",
+    "variable": "#000000",
+    "parameter": "#000000",
+    "namespace": "#000000",
+    "operator": "#000000",
+    "decorator": "#9E880D",
+    "annotation": "#9E880D",
+    "annotationMember": "#9E880D",
+    "macro": "#000000",
+    "event": "#000000"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "keyword.control",
+          "keyword.other",
+          "keyword.declaration",
+          "keyword.reserved",
+          "storage.type",
+          "storage.modifier",
+          "constant.language"
+        ],
+        "settings": {
+          "foreground": "#0033B3",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "string",
+          "string.quoted",
+          "constant.other.symbol"
+        ],
+        "settings": {
+          "foreground": "#067D17",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "constant.numeric",
+          "constant.language.numeric"
+        ],
+        "settings": {
+          "foreground": "#1750EB"
+        }
+      },
+      {
+        "scope": "comment",
+        "settings": {
+          "foreground": "#8C8C8C",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          "entity.name.function",
+          "support.function"
+        ],
+        "settings": {
+          "foreground": "#00627A"
+        }
+      },
+      {
+        "scope": [
+          "entity.name.type",
+          "support.class",
+          "support.type"
+        ],
+        "settings": {
+          "foreground": "#000000"
+        }
+      },
+      {
+        "scope": [
+          "variable.other.member",
+          "variable.other.property",
+          "support.variable.property"
+        ],
+        "settings": {
+          "foreground": "#871094"
+        }
+      },
+      {
+        "scope": [
+          "meta.annotation",
+          "storage.type.annotation",
+          "punctuation.definition.annotation"
+        ],
+        "settings": {
+          "foreground": "#9E880D"
+        }
+      },
+      {
+        "scope": "keyword.operator",
+        "settings": {
+          "foreground": "#000000"
+        }
+      },
+      {
+        "scope": "constant.character.escape",
+        "settings": {
+          "foreground": "#0037A6"
+        }
+      }
+    ]
+  },
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "visible",
+  "window.titleBarStyle": "custom",
+  "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "blink",
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "selection",
+  "editor.renderValidationDecorations": "editable",
+  "editor.smoothScrolling": true,
+  "editor.mouseWheelScrollSensitivity": 2.16,
+  "editor.fastScrollSensitivity": 1,
+  "editor.suggest.preview": false,
+  "editor.tabCompletion": "on",
+  "editor.detectIndents": false,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.linkedEditing": true,
+  "editor.wordWrap": "off",
+  "editor.formatOnSave": false,
+  "editor.emptyLineHint": "none",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.suggest.showWords": true,
+  "editor.wordBasedSuggestions": "off",
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "off"
+  },
+  "editor.suggestSelection": "first",
+  "editor.snippetSuggestions": "inline",
+  "editor.occurrencesHighlight": "singleFile",
+  "editor.multiCursorModifier": "altCmd",
+  "editor.stickyScroll.maxLineCount": 3,
+  "editor.glyphMargin": true,
+  "editor.lineNumbers": "on",
+  "editor.inlayHints.enabled": "on",
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.inlayHints.enabled": "on"
+  },
+  "[javascript]": {
+    "editor.inlayHints.enabled": "on"
+  },
+  "[typescript]": {
+    "editor.inlayHints.enabled": "on"
+  },
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontSize": 15,
+  "debug.console.fontFamily": "JetBrains Mono",
+  "debug.console.fontSize": 15,
+  "markdown.preview.fontFamily": "JetBrains Mono",
+  "markdown.preview.fontSize": 15,
+  "chat.editor.fontFamily": "JetBrains Mono",
+  "chat.editor.fontSize": 15,
+  "scm.diffDecorations": "all",
+  "explorer.compactFolders": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.tree.indent": 8,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.idea": true,
+    "**/.vscode": true,
+    "**/node_modules": true,
+    "**/target": true,
+    "**/__pycache__": true,
+    "**/.venv": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/target": true,
+    "**/__pycache__": true,
+    "**/.venv": true
+  },
+  "java.import.maven.enabled": true,
+  "java.import.gradle.enabled": true,
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "jdk.telemetry.enabled": false,
+  "python.autoComplete.extraPaths": [],
+  "python-envs.pythonProjects": [],
+  "python.defaultInterpreterPath": "<YOUR_PYTHON_INTERPRETER>",
+  "claudeCode.preferredLocation": "panel",
+  "security.workspace.trust.untrustedFiles": "open",
+  "chat.agent.enabled": false,
+  "chat.mcp.gallery.enabled": true,
+  "extensions.ignoreRecommendations": true,
+  "workbench.list.mouseWheelScrollSensitivity": 2.16,
+  "workbench.list.fastScrollSensitivity": 1,
+  "terminal.integrated.mouseWheelScrollSensitivity": 2.16,
+  "terminal.integrated.fastScrollSensitivity": 1,
+  "workbench.editorAssociations": {
+    "*.md": "vscode.markdown.preview.editor"
+  },
+  "[typescriptreact]": {},
+  "workbench.sideBar.location": "left",
+  "workbench.activityBar.location": "default",
+  "workbench.panel.defaultLocation": "bottom",
+  "workbench.editor.tabSizing": "fit",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.tree.renderIndentGuides": "onHover",
+  "workbench.tree.enableStickyScroll": false,
+  "breadcrumbs.enabled": true,
+  "editor.cursorSmoothCaretAnimation": "off",
+  "editor.stickyScroll.enabled": false,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 22,
+  "editor.fontWeight": "normal",
+  "editor.letterSpacing": 0,
+  "editor.fontLigatures": false,
+  "editor.guides.indentation": true,
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.renderLineHighlight": "all",
+  "editor.renderLineHighlightOnlyWhenFocus": false,
+  "editor.padding.top": 8,
+  "editor.padding.bottom": 8,
+  "editor.foldingHighlight": false,
+  "editor.selectionHighlight": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "workbench.editor.wrapTabs": true,
+  "workbench.editor.showTabs": "multiple"
+}
